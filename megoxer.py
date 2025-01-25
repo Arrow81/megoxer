@@ -11,7 +11,7 @@ from pymongo import MongoClient
 bot = telebot.TeleBot('8136298060:AAHas7uC1hf_iOoapmb-m0IZNSTAaRj7VFA')
 
 # MongoDB Connection
-MONGO_URI = "mongodb+srv://arrow:Arrow9199@@arrow.e7orp.mongodb.net/?retryWrites=true&w=majority&appName=arrow"
+MONGO_URI = "mongodb+srv://MEGOXER:MEGOXER@megoxer.2mx1d.mongodb.net/?retryWrites=true&w=majority&appName=MEGOXER"
 client = MongoClient(MONGO_URI)
 db = client["arrow"]  # Database name
 users_collection = db["users"]  # Collection for users
